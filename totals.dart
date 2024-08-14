@@ -22,7 +22,7 @@ for (var line in lines) {
 }
 for (var entry in totalDurationByTag.entries){
   final durationFormatted = entry.value.toStringAsFixed(1);
-  final tag = entry.key == '' ? 'unalloaced' : entry.key;
+  final tag = entry.key == '' ? 'unallocated' : entry.key;
   print('$tag : ${durationFormatted}h');
 }
 }
